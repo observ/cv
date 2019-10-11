@@ -50,14 +50,13 @@ export default class ReactCV extends Component {
         { type: 'email', value: 'jane@me.com' },
         { type: 'phone', value: '+00 (123) 456 78 90' },
         { type: 'website', value: 'example.com' },
-        { type: 'linkedin', value: 'linkedin.com/in/notexists' },
         { type: 'twitter', value: 'twitter.com/indork' },
         { type: 'github', value: 'github.com/indork' }
       ]},
     sections: [{
       type: 'text',
       title: 'Career Profile',
-      content: 'When I was child, I always want to be a developer.',
+      content: 'i strong as you know',
       icon: 'usertie'
     }],
     branding: true
@@ -81,9 +80,7 @@ export default class ReactCV extends Component {
 
           </div>
         </main>
-        {this.props.branding && <div className={Styles.branding}>
-          You can create your own CV like this. Try <a href='https://github.com/sbayd/react-cv' targt='_blank'>React-CV</a> now.
-        </div>
+
         }
       </section>
     )
